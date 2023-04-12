@@ -4,8 +4,8 @@
 class Hq < Formula
   desc "lightweight command line HTML processor using CSS and XPath selectors"
   homepage ""
-  url "https://github.com/ludovicianul/hq/releases/download/hq-1.2.0/hq_macos_amd64_1.2.0.tar.gz"
-  sha256 "743952350598fb88e597e37643e5f161de7eb9fa43c1c97073ce4d47062d6378"
+  url "https://github.com/ludovicianul/hq/releases/download/hq-1.3.0/hq_macos_amd64_1.3.0.tar.gz"
+  sha256 "65dbea72b36409df2975f954e4e1c866264793cdd1ad1ec794a899e09743fae0"
   license "MIT"
 
   # depends_on "cmake" => :build
