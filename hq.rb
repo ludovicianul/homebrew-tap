@@ -8,7 +8,7 @@ class Hq < Formula
   if OS.mac?
         if Hardware::CPU.intel?
           url "https://github.com/ludovicianul/hq/releases/download/hq-1.3.2/hq_macos_amd64_1.3.2.tar.gz"
-          sha256 ""
+          sha256 "91cc3d1857af2b91e6e2ba114726fc03221051b74ce3b48a197abb008d8b48aa"
         elsif Hardware::CPU.arm?
           url "https://github.com/ludovicianul/hq/releases/download/hq-1.3.2/hq_macos_arm64_1.3.2.tar.gz"
           sha256 "fa7d82f66ce187bd8bd1c443c70aa9584dea1d933b9984b2b7080a29fbe0397a"
