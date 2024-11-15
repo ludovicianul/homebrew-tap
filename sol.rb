@@ -1,7 +1,7 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-class sol < Formula
+class Sol < Formula
   desc "Sol is a command line application that allows you to chat with your git history."
   homepage "https://github.com/ludovicianul/sol"
 
