@@ -7,22 +7,22 @@ class Sol < Formula
 
   if OS.mac?
       if Hardware::CPU.intel?
-        url "https://github.com/ludovicianul/sol/releases/download/sol-1.0.2/sol_macos_amd64_1.0.2.tar.gz"
-        sha256 "902158d7c75e53c39718c1603b1c5ba6a4d1aeeade11642c8b7dee6d1011bdbb"
+        url "https://github.com/ludovicianul/sol/releases/download/sol-1.0.3/sol_macos_amd64_1.0.3.tar.gz"
+        sha256 "7a0c2cdf6e8fc4f528cd4817c852aacc28ef0354480ed1cd525b25e9b58d32c1"
       elsif Hardware::CPU.arm?
-        url "https://github.com/ludovicianul/sol/releases/download/sol-1.0.2/sol_macos_arm64_1.0.2.tar.gz"
-        sha256 "f9afb95df58974431310ed03aacbc2351d34813fbaa68c94c6dc0af516017f9b"
+        url "https://github.com/ludovicianul/sol/releases/download/sol-1.0.3/sol_macos_arm64_1.0.3.tar.gz"
+        sha256 "2c8b2a6d0fe3eaaf374dcaa87892a85fafa164fd788b661725756393f4dcf740"
       end
   elsif OS.linux?
       if Hardware::CPU.intel?
-        url "https://github.com/ludovicianul/sol/releases/download/sol-1.0.2/sol_linux_amd64_1.0.2.tar.gz"
-        sha256 "d56cadccfe29d17df6cb4c4a4975633d936f54b0f9fa209175cd9869facd5ce5"
+        url "https://github.com/ludovicianul/sol/releases/download/sol-1.0.3/sol_linux_amd64_1.0.3.tar.gz"
+        sha256 "05b17f607d9522f22395d58881b6965209ac1e3aaae32e628d515faf1e83e40e"
       elsif Hardware::CPU.arm?
-        url "https://github.com/ludovicianul/sol/releases/download/sol-1.0.2/sol_linux_arm64_1.0.2.tar.gz"
+        url "https://github.com/ludovicianul/sol/releases/download/sol-1.0.3/sol_linux_arm64_1.0.3.tar.gz"
         sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
       end
   else
-    odie "Please use the uberjar version: https://github.com/ludovicianul/sol/releases/download/sol-1.0.2/sol_uberjar_1.0.2.tar.gz"
+    odie "Please use the uberjar version: https://github.com/ludovicianul/sol/releases/download/sol-1.0.3/sol_uberjar_1.0.3.tar.gz"
   end
 
   license "Apache-2.0"
