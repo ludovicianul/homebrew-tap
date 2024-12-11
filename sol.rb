@@ -7,22 +7,22 @@ class Sol < Formula
 
   if OS.mac?
       if Hardware::CPU.intel?
-        url "https://github.com/ludovicianul/sol/releases/download/sol-1.0.3/sol_macos_amd64_1.0.3.tar.gz"
-        sha256 "7a0c2cdf6e8fc4f528cd4817c852aacc28ef0354480ed1cd525b25e9b58d32c1"
+        url "https://github.com/ludovicianul/sol/releases/download/sol-1.0.4/sol_macos_amd64_1.0.4.tar.gz"
+        sha256 "efa8f1646a81822d18a6ba6b5d3014e61abb95d6710386117e459350f34802af"
       elsif Hardware::CPU.arm?
-        url "https://github.com/ludovicianul/sol/releases/download/sol-1.0.3/sol_macos_arm64_1.0.3.tar.gz"
-        sha256 "2c8b2a6d0fe3eaaf374dcaa87892a85fafa164fd788b661725756393f4dcf740"
+        url "https://github.com/ludovicianul/sol/releases/download/sol-1.0.4/sol_macos_arm64_1.0.4.tar.gz"
+        sha256 "5395d9c668eca15b323f62b27fb3e8243ee5e0d44892a4510d54701a21c76d30"
       end
   elsif OS.linux?
       if Hardware::CPU.intel?
-        url "https://github.com/ludovicianul/sol/releases/download/sol-1.0.3/sol_linux_amd64_1.0.3.tar.gz"
-        sha256 "05b17f607d9522f22395d58881b6965209ac1e3aaae32e628d515faf1e83e40e"
+        url "https://github.com/ludovicianul/sol/releases/download/sol-1.0.4/sol_linux_amd64_1.0.4.tar.gz"
+        sha256 "11fc97a0430f3228776e1e0d3ed7c4cf065d4a0220b13866596e5600be5c76bf"
       elsif Hardware::CPU.arm?
-        url "https://github.com/ludovicianul/sol/releases/download/sol-1.0.3/sol_linux_arm64_1.0.3.tar.gz"
-        sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+        url "https://github.com/ludovicianul/sol/releases/download/sol-1.0.4/sol_linux_arm64_1.0.4.tar.gz"
+        sha256 "4ad1850a45a88598405c0afd3744a7e7d1c918fad1d6e415013e4febc1728ce4"
       end
   else
-    odie "Please use the uberjar version: https://github.com/ludovicianul/sol/releases/download/sol-1.0.3/sol_uberjar_1.0.3.tar.gz"
+    odie "Please use the uberjar version: https://github.com/ludovicianul/sol/releases/download/sol-1.0.4/sol_uberjar_1.0.4.tar.gz"
   end
 
   license "Apache-2.0"
