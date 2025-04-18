@@ -7,22 +7,22 @@ class Timi < Formula
 
   if OS.mac?
       if Hardware::CPU.intel?
-        url "https://github.com/ludovicianul/timi/releases/download/timi-1.0.3/timi_macos_amd64_1.0.3.tar.gz"
-        sha256 "ac7d9d7261c18496e464e3fbee6ad4f6a7be03a0aa5e1f9e2ee8d316a179c5c8"
+        url "https://github.com/ludovicianul/timi/releases/download/timi-1.0.4/timi_macos_amd64_1.0.4.tar.gz"
+        sha256 "27ab7fc92d2c157969ad33821ea3a60ad53d606e2003f1e377dbb0ce7e2e3322"
       elsif Hardware::CPU.arm?
-        url "https://github.com/ludovicianul/timi/releases/download/timi-1.0.3/timi_macos_arm64_1.0.3.tar.gz"
-        sha256 "473ee55070f19e99954651d5a23bbe0f4824243ad3d81c28d2b7f9290d89539f"
+        url "https://github.com/ludovicianul/timi/releases/download/timi-1.0.4/timi_macos_arm64_1.0.4.tar.gz"
+        sha256 "b2a3a33cdea50366338b305428808633ead00ef3074546451cb74b5f989f34af"
       end
   elsif OS.linux?
       if Hardware::CPU.intel?
-        url "https://github.com/ludovicianul/timi/releases/download/timi-1.0.3/timi_linux_amd64_1.0.3.tar.gz"
-        sha256 "cab72ce6ac6e77fba5be875f0ad0d974afe165dc8ae8b2b76f00c78c53272c87"
+        url "https://github.com/ludovicianul/timi/releases/download/timi-1.0.4/timi_linux_amd64_1.0.4.tar.gz"
+        sha256 "c1d6c29e6307881a878a8dc2c644e6a24d49226cc726abfbe8a930a89f789121"
       elsif Hardware::CPU.arm?
-        url "https://github.com/ludovicianul/timi/releases/download/timi-1.0.3/timi_linux_arm64_1.0.3.tar.gz"
-        sha256 "363b67f52e1ac2f03a1378b5d9c1d31f2c316e0c7d99f7e53fb7590df8ee481a"
+        url "https://github.com/ludovicianul/timi/releases/download/timi-1.0.4/timi_linux_arm64_1.0.4.tar.gz"
+        sha256 "ff3422f3b4e50883787341509ad8ec25f2d9f50919637e279b9569aa9a9be2ff"
       end
   else
-    odie "Please use the uberjar version: https://github.com/ludovicianul/timi/releases/download/timi-1.0.3/timi_uberjar_1.0.3.tar.gz"
+    odie "Please use the uberjar version: https://github.com/ludovicianul/timi/releases/download/timi-1.0.4/timi_uberjar_1.0.4.tar.gz"
   end
 
   license "MIT"
