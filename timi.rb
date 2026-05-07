@@ -7,22 +7,22 @@ class Timi < Formula
 
   if OS.mac?
       if Hardware::CPU.intel?
-        url "https://github.com/ludovicianul/timi/releases/download/timi-1.0.7/timi_macos_amd64_1.0.7.tar.gz"
-        sha256 "68b3f7ed7bd06e6b3a09db760bb6abef59255026831ab24ce1ccfcd354938ee9"
+        url "https://github.com/ludovicianul/timi/releases/download/timi-1.0.8/timi_macos-15_amd64_1.0.8.tar.gz"
+        sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
       elsif Hardware::CPU.arm?
-        url "https://github.com/ludovicianul/timi/releases/download/timi-1.0.7/timi_macos_arm64_1.0.7.tar.gz"
-        sha256 "e6e89e3c31e4357f4b25fd48ab2e178335de7374405a702054bfa99275bdb84c"
+        url "https://github.com/ludovicianul/timi/releases/download/timi-1.0.8/timi_macos_arm64_1.0.8.tar.gz"
+        sha256 "bf1ba9fdaac3fff085ce11297d405dafbb825de6834d09d35b78e53faa8adf10"
       end
   elsif OS.linux?
       if Hardware::CPU.intel?
-        url "https://github.com/ludovicianul/timi/releases/download/timi-1.0.7/timi_linux_amd64_1.0.7.tar.gz"
-        sha256 "68f6fcfc5c384bcbb5d68bd78902f9b25258668f20d4775048e0b558114f79ca"
+        url "https://github.com/ludovicianul/timi/releases/download/timi-1.0.8/timi_linux_amd64_1.0.8.tar.gz"
+        sha256 "bfb8853ae1f50371ed6e4e9988a0228a13bcc1f694006bab883f68d68cfe15e6"
       elsif Hardware::CPU.arm?
-        url "https://github.com/ludovicianul/timi/releases/download/timi-1.0.7/timi_linux_arm64_1.0.7.tar.gz"
-        sha256 "5bdf8bea5ba69d79c528445b890f4e069f17106a3d810ec0a808bed07e2547ec"
+        url "https://github.com/ludovicianul/timi/releases/download/timi-1.0.8/timi_linux_arm64_1.0.8.tar.gz"
+        sha256 "1de4c1b873cab5ac6d19e1fdb7ce4287da25b961276884d17190a8ef49047ff9"
       end
   else
-    odie "Please use the uberjar version: https://github.com/ludovicianul/timi/releases/download/timi-1.0.7/timi_uberjar_1.0.7.tar.gz"
+    odie "Please use the uberjar version: https://github.com/ludovicianul/timi/releases/download/timi-1.0.8/timi_uberjar_1.0.8.tar.gz"
   end
 
   license "MIT"
