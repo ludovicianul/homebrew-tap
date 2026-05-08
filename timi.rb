@@ -8,7 +8,7 @@ class Timi < Formula
   if OS.mac?
       if Hardware::CPU.intel?
         url "https://github.com/ludovicianul/timi/releases/download/timi-1.0.9/timi_macos-15_amd64_1.0.9.tar.gz"
-        sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+        sha256 "46576e92aacd3239c320dc20ca37481d1ebfaa239dd87de1ba5b79135ff7de8d"
       elsif Hardware::CPU.arm?
         url "https://github.com/ludovicianul/timi/releases/download/timi-1.0.9/timi_macos_arm64_1.0.9.tar.gz"
         sha256 "024bf75db0f1ff555a61156e631f37328e09958c8ad51652ce96117a03470860"
